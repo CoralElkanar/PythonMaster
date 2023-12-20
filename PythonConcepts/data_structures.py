@@ -120,8 +120,8 @@ print(f"d.keys() -> {d_keys}")
 d_values = d.values()
 print(f"d.values() -> {d_values}")
 
-# Retur n the value for key if keyis in the dictionary, else default.
-val_for_key_b = d.get('key_b')
+# Retur n the value for key if key is in the dictionary, else returns default.
+val_for_key_b = d.get('key_b', 'default')
 print(f"value for the 'key_b' is {val_for_key_b}")
 
 #  remove specified key and return the corresponding value. 
