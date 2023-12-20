@@ -120,7 +120,8 @@ print(f"d.keys() -> {d_keys}")
 d_values = d.values()
 print(f"d.values() -> {d_values}")
 
-# Retur n the value for key if key is in the dictionary, else returns default.
+# Retur n the value for the key given as the first parameter if this key exists in the dictionary, 
+# else returns default (given as the second parameter to the get function).
 val_for_key_b = d.get('key_b', 'default')
 print(f"value for the 'key_b' is {val_for_key_b}")
 
